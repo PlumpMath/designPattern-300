@@ -1,3 +1,5 @@
+package pl.org.mgalezewska.pattern.strategy;
+
 import pl.org.mgalezewska.pattern.strategy.duck.Duck;
 import pl.org.mgalezewska.pattern.strategy.duck.NewDuck;
 import pl.org.mgalezewska.pattern.strategy.duck.RubberDuck;
@@ -5,7 +7,7 @@ import pl.org.mgalezewska.pattern.strategy.duck.WildDuck;
 import pl.org.mgalezewska.pattern.strategy.fly.NotFly;
 import pl.org.mgalezewska.pattern.strategy.quack.NotQuack;
 
-public class Main {
+public class StrategyPattern {
 
     public static void main(String[] args) {
 
